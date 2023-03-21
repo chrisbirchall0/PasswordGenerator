@@ -19,9 +19,7 @@ namespace ProjectGeneratePassword
             // Print password in CMD
             Console.WriteLine(password);
             // Hold password in CMD
-            Console.Read();
-
-            
+            Console.Read(); 
         }
     }
 }

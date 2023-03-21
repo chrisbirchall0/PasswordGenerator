@@ -6,8 +6,6 @@ namespace ProjectGeneratePassword
 {   
     public static class AudioHandler
     {
-
-
         public static void PlaySound()
         {   
             // Modify file name to change audio that plays
