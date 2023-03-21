@@ -7,7 +7,9 @@ namespace ProjectGeneratePassword
     class Program
     {
         static void Main(string[] args)
-        {   
+        {
+            // Blast ear drums
+            AudioHandler.PlaySound();
             // Password construction
             var pwd = new Password(includeLowercase: true, includeUppercase: true, includeNumeric: true, includeSpecial: true, passwordLength: 16);
             // Get password as variable
@@ -17,7 +19,9 @@ namespace ProjectGeneratePassword
             // Print password in CMD
             Console.WriteLine(password);
             // Hold password in CMD
-            Console.Read(); 
+            Console.Read();
+
+            
         }
     }
 }
